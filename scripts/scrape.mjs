@@ -125,6 +125,74 @@ async function fetchListingPage(page, attempt = 1) {
 
 const clean = (s) => (s || "").replace(/\s+/g, " ").trim();
 
+// ---------------------------------------------------------------------------
+// Category taxonomy (house rule)
+// ---------------------------------------------------------------------------
+// The ACCC tags each item with its own live "topic" labels. The firm instead
+// uses the vocabulary from its 2024 reference timeline. Rule: use a category
+// ONLY IF it appears in that reference doc — so each ACCC topic is mapped to the
+// doc's Title-Case label, and any topic with NO mapping here is DROPPED.
+//
+// Two authorised additions beyond the 2024 doc:
+//   - "Petrol and Fuel"        — kept as a category (topical).
+//   - "Artificial Intelligence" — applied by title (see isAiArticle below), and
+//     it REPLACES the other categories for those items.
+//
+// Values are arrays so one ACCC topic can expand to several doc atoms
+// (e.g. "Rail, shipping and ports" → "Rail" + "Shipping and Ports").
+const CATEGORY_MAP = {
+  "compliance and enforcement": ["Compliance and Enforcement"],
+  "competition and exemptions": ["Competition and Exemptions"],
+  "mergers and acquisitions": ["Mergers"],
+  "buying and selling products and services": [
+    "Buying and Selling Products and Services",
+  ],
+  "regulated infrastructure": ["Regulated Infrastructure"],
+  "advertising and promotions": ["Advertising and Promotions"],
+  "stay protected": ["Stay Protected"],
+  energy: ["Energy"],
+  "telecommunications and internet": ["Telecommunications and Internet"],
+  "travel and airports": ["Travel and Airports"],
+  scams: ["Scams"],
+  "banking and finance": ["Banking and Finance"],
+  "digital platforms and services": ["Digital Platforms and Services"],
+  "food and groceries": ["Food and Groceries"],
+  agriculture: ["Agriculture"],
+  pricing: ["Pricing"],
+  "industry codes": ["Industry Codes"],
+  "rail, shipping and ports": ["Rail", "Shipping and Ports"],
+  insurance: ["Insurance"],
+  "postal services": ["Postal Services"],
+  "cars and vehicles": ["Cars and Vehicles"],
+  childcare: ["Childcare"],
+  "consumer data right": ["Consumer Data Right"],
+  "petrol and fuel": ["Petrol and Fuel"],
+  // Deliberately NOT mapped (absent from the 2024 doc), so they are dropped:
+  //   "problem with a product or service", "franchising", "water", "debt",
+  //   "covid-19". An item left with no category shows an em dash.
+};
+
+/**
+ * True when an article's TITLE centres on AI. Matches the standalone token "AI"
+ * (case-sensitive, so it doesn't fire inside other words) or the full phrase.
+ * These items are categorised "Artificial Intelligence" (authorised exception),
+ * which replaces whatever their ACCC topics would map to.
+ */
+function isAiArticle(title) {
+  return /\bAI\b/.test(title || "") || /artificial intelligence/i.test(title || "");
+}
+
+/** Map raw ACCC topics onto the reference-doc vocabulary (dropping the rest). */
+function mapCategories(rawTopics, title) {
+  if (isAiArticle(title)) return ["Artificial Intelligence"];
+  const out = [];
+  for (const raw of rawTopics) {
+    const mapped = CATEGORY_MAP[clean(raw).toLowerCase()];
+    if (mapped) out.push(...mapped);
+  }
+  return [...new Set(out)];
+}
+
 /** Normalise the ribbon text to the display type, or null if we should skip. */
 function normaliseType(ribbon) {
   const r = (ribbon || "").toLowerCase();
@@ -163,21 +231,22 @@ function parseCards(html) {
       clean(anchor.text());
 
     // A card can carry several topic badges. Collect each separately (the raw
-    // text runs them together with no separator), de-dupe, and keep an array
-    // for filtering plus a comma-joined string for display/search.
+    // text runs them together with no separator), then map onto the firm's
+    // reference-doc vocabulary (see CATEGORY_MAP). Keep an array for filtering
+    // plus a comma-joined string for display/search.
     const topicField = card.find(".field--name-field-acccgov-topic").first();
-    let categories = [];
+    const rawTopics = [];
     const badges = topicField.find(".terms-badge");
     if (badges.length) {
       badges.each((__, b) => {
         const t = clean($(b).text());
-        if (t) categories.push(t);
+        if (t) rawTopics.push(t);
       });
     } else {
       const t = clean(topicField.text());
-      if (t) categories.push(t);
+      if (t) rawTopics.push(t);
     }
-    categories = [...new Set(categories)];
+    const categories = mapCategories([...new Set(rawTopics)], title);
     const category = categories.join(", ");
 
     const summary = clean(card.find(".field--name-field-acccgov-summary").first().text());
