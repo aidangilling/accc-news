@@ -162,8 +162,28 @@
   }
 
   // ---- table columns -----------------------------------------------------
+  // Title sits in the far-left column; Date | Type | Category follow.
   function columns() {
     return [
+      {
+        key: "title",
+        label: "Title",
+        cls: "title-cell",
+        sortVal: (r) => (r.title || "").toLowerCase(),
+        cell: (r) => {
+          const tag = r.overridden
+            ? ` <span class="tag tag--manual" title="${esc(
+                r.notes || "Manually adjusted"
+              )}">manual</span>`
+            : "";
+          const link = r.permalink
+            ? `<a href="${esc(r.permalink)}" rel="noopener" target="_blank">${esc(
+                r.title || "(untitled)"
+              )}</a>`
+            : esc(r.title || "(untitled)");
+          return link + tag;
+        },
+      },
       {
         key: "dateISO",
         label: "Date",
@@ -188,25 +208,6 @@
         sortVal: (r) => (r.category || "").toLowerCase(),
         cell: (r) =>
           r.category ? esc(r.category) : '<span class="dash">—</span>',
-      },
-      {
-        key: "title",
-        label: "Title",
-        cls: "title-cell",
-        sortVal: (r) => (r.title || "").toLowerCase(),
-        cell: (r) => {
-          const tag = r.overridden
-            ? ` <span class="tag tag--manual" title="${esc(
-                r.notes || "Manually adjusted"
-              )}">manual</span>`
-            : "";
-          const link = r.permalink
-            ? `<a href="${esc(r.permalink)}" rel="noopener" target="_blank">${esc(
-                r.title || "(untitled)"
-              )}</a>`
-            : esc(r.title || "(untitled)");
-          return link + tag;
-        },
       },
     ];
   }
