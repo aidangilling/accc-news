@@ -1,0 +1,516 @@
+/* ACCC Media Releases & Updates mirror — styles
+   Palette: orange (dominant), white, dark gray (secondary). */
+
+:root {
+  --orange: #ef8645;
+  --orange-deep: #e06a2c;
+  --orange-soft: #fdeee2;
+  --orange-line: #f0c3a2;
+  --orange-text: #b7541a; /* readable orange for links/accents on white */
+
+  --link: #0d4c73; /* blue for body links (titles, footer) */
+
+  --gray: #333333;
+  --ink: #2b2b2b;
+  --muted: #6b6b6b;
+  --line: #e6e3e0;
+  --line-strong: #d3cec9;
+  --bg: #f6f4f2;
+  --card: #ffffff;
+
+  --shadow: 0 1px 2px rgba(40, 30, 20, 0.05),
+    0 6px 20px rgba(40, 30, 20, 0.07);
+  --radius: 10px;
+  --sans: "Inter", "Segoe UI", system-ui, -apple-system, Roboto, Arial,
+    sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header ------------------------------------------------------------------ */
+.site-header {
+  background: linear-gradient(155deg, var(--orange) 0%, var(--orange-deep) 100%);
+  color: #2a1a0d;
+  padding: 40px 0 34px;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6d3410;
+  margin: 0 0 6px;
+}
+.site-header h1 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(26px, 4vw, 38px);
+  margin: 0 0 12px;
+  letter-spacing: 0.2px;
+  color: #2a1a0d;
+}
+.lede {
+  margin: 0;
+  max-width: 64ch;
+  color: #3a2513;
+  font-size: 16.5px;
+  font-weight: 500;
+}
+.lede a {
+  color: #23150a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+
+/* Banners ----------------------------------------------------------------- */
+.banner {
+  margin: 22px 0 0;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  background: var(--orange-soft);
+  border: 1px solid var(--orange-line);
+  color: #7a4a1c;
+}
+.banner--error {
+  background: #fdeaea;
+  border-color: #f2bdbb;
+  color: #b3261e;
+}
+
+/* Sections ---------------------------------------------------------------- */
+.section {
+  margin: 34px 0 10px;
+}
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  border-bottom: 3px solid var(--orange);
+  padding-bottom: 10px;
+}
+.section-head h2 {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--gray);
+}
+.headline {
+  font-size: 14px;
+  color: var(--muted);
+}
+.headline strong {
+  color: var(--ink);
+}
+
+/* Summary stat cards ------------------------------------------------------ */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.statgroup {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px 16px;
+}
+.statgroup h3 {
+  margin: 0 0 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--muted);
+  font-weight: 700;
+}
+/* Long stat cards (e.g. By Category) scroll internally so they don't
+   dominate the grid and push the table far down the page. */
+.statgroup--scroll .statgroup__scrollbody {
+  max-height: 232px;
+  overflow-y: auto;
+  margin: 0 -6px;
+  padding: 0 6px;
+}
+.statgroup--scroll .statgroup__scrollbody .statrow {
+  margin: 0;
+}
+.statrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  padding: 4px 6px;
+  margin: 0 -6px;
+  border-top: 1px dotted var(--line);
+  border-radius: 6px;
+}
+.statgroup .statrow:first-of-type {
+  border-top: none;
+}
+.statrow .k {
+  color: var(--muted);
+  font-size: 13.5px;
+}
+.statrow .v {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--ink);
+}
+
+/* Clickable (filter) stat rows */
+.statrow.selectable {
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+.statrow.selectable:hover {
+  background: var(--orange-soft);
+}
+.statrow.selectable:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 1px;
+}
+.statrow.selectable::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  flex: 0 0 13px;
+  align-self: center;
+  margin-right: 8px;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 4px;
+  background: #fff;
+  transition: all 0.12s ease;
+}
+.statrow.selectable .k {
+  flex: 1;
+}
+.statrow.selectable.active {
+  background: var(--orange);
+}
+.statrow.selectable.active .k,
+.statrow.selectable.active .v {
+  color: #fff;
+}
+.statrow.selectable.active::before {
+  background: #fff;
+  border-color: #fff;
+  /* small check mark */
+  box-shadow: inset 0 0 0 2px var(--orange);
+}
+
+.statgroup--headline {
+  background: var(--gray);
+  color: #fff;
+  border-color: var(--gray);
+}
+.statgroup--headline h3 {
+  color: #d7b49b;
+}
+.statgroup--headline .big {
+  font-size: 34px;
+  font-weight: 800;
+  font-family: var(--serif);
+  line-height: 1.1;
+  color: var(--orange);
+}
+.statgroup--headline .sub {
+  color: #cfcac6;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Toolbar ----------------------------------------------------------------- */
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.search {
+  flex: 1 1 240px;
+  min-width: 0;
+}
+.search input {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  font: inherit;
+  background: #fff;
+}
+.search input:focus {
+  outline: 2px solid var(--orange);
+  outline-offset: 1px;
+  border-color: var(--orange);
+}
+.clear-filters {
+  border: 1px solid var(--orange-line);
+  background: var(--orange-soft);
+  color: var(--orange-text);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.clear-filters:hover {
+  background: #fbe1cd;
+}
+.count {
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* Table ------------------------------------------------------------------- */
+.table-wrap {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: auto;
+  max-height: 78vh;
+  zoom: var(--table-zoom, 1); /* driven by the floating zoom control */
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+}
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--gray);
+  color: #fff;
+  text-align: left;
+  font-weight: 600;
+  padding: 11px 14px;
+  border-bottom: 2px solid var(--orange);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+thead th .arrow {
+  color: #b7b2ad;
+  font-size: 10px;
+  margin-left: 5px;
+  opacity: 0.5;
+}
+thead th[aria-sort="ascending"] .arrow,
+thead th[aria-sort="descending"] .arrow {
+  opacity: 1;
+  color: var(--orange);
+}
+tbody td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+tbody tr:last-child td {
+  border-bottom: none;
+}
+tbody tr:hover {
+  background: #fbf6f2;
+}
+td.nowrap {
+  white-space: nowrap;
+}
+.title-cell {
+  min-width: 320px;
+  font-weight: 500;
+}
+.dash {
+  color: var(--muted);
+  font-weight: 600;
+}
+.empty {
+  padding: 26px 14px;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* Type pills -------------------------------------------------------------- */
+.pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+.pill--media {
+  background: #e9f6ef;
+  color: #1c7a4a;
+  border-color: #c4e6d3;
+}
+.pill--update {
+  background: #eef4fb;
+  color: #1c4e80;
+  border-color: #d3e3f4;
+}
+
+/* Manual override tag ----------------------------------------------------- */
+.tag {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 1px 6px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.tag--manual {
+  background: #fbeecb;
+  color: #7a5a12;
+  border: 1px solid #ecd79a;
+  margin-left: 6px;
+  cursor: help;
+}
+
+/* Timestamp --------------------------------------------------------------- */
+.asat {
+  margin: 10px 2px 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Footer ------------------------------------------------------------------ */
+.site-footer {
+  margin-top: 46px;
+  padding: 26px 0 40px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+.site-footer p {
+  margin: 0;
+}
+
+.loading {
+  padding: 40px 0;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* Floating table-zoom control -------------------------------------------- */
+.zoom-control {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--gray);
+  color: #fff;
+  border-radius: 999px;
+  padding: 6px 10px;
+  box-shadow: 0 4px 16px rgba(30, 20, 10, 0.28);
+}
+.zoom-ico {
+  font-size: 14px;
+  line-height: 1;
+}
+.zoom-level {
+  min-width: 40px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.zoom-btn {
+  width: 27px;
+  height: 27px;
+  flex: 0 0 27px;
+  border: none;
+  border-radius: 50%;
+  background: var(--orange);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zoom-btn:hover {
+  background: var(--orange-deep);
+}
+.zoom-btn:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 1px;
+}
+.zoom-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+@media print {
+  .zoom-control {
+    display: none;
+  }
+}
+
+/* Responsive -------------------------------------------------------------- */
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+  .site-header {
+    padding: 30px 0 26px;
+  }
+  thead th,
+  tbody td {
+    padding: 9px 10px;
+  }
+  .title-cell {
+    min-width: 200px;
+  }
+  .table-wrap {
+    max-height: none;
+  }
+}

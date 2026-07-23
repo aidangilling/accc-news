@@ -1,0 +1,12 @@
+{
+  "_readme": "MANUAL OVERRIDES. This layer pins hand-adjusted values so the mechanical scrape can never silently overwrite a known, deliberate correction. Keys are the FULL ARTICLE URL exactly as it appears on the site (the permalink, e.g. 'https://www.accc.gov.au/about-us/news/media-updates/some-article'). Any key beginning with an underscore is IGNORED (these notes and the example below). For each real URL key you may set any of: type ('Media Release' or 'Update'), category (string), title (string), dateISO ('YYYY-MM-DD' — the display date auto-updates to match unless you also set dateText), dateText (string, e.g. '10 January 2024'), notes (string, shown as a small 'manual' tag on that row). Pipeline order: scrape -> merge these on top, so the fields you set here always win. To use one, copy the _example shape to a top-level real URL key and fill in the values.",
+  "_example": {
+    "https://www.accc.gov.au/about-us/news/media-release-example-slug": {
+      "type": "Media Release",
+      "category": "Mergers",
+      "title": "Corrected headline goes here",
+      "dateISO": "2026-01-15",
+      "notes": "Example only — this key sits under _example so it is ignored. Copy this shape to a real article URL at the top level to activate it."
+    }
+  }
+}
