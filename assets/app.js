@@ -368,8 +368,9 @@
 
   // ---- section assembly --------------------------------------------------
   function renderSection(el, opts) {
-    const { title, headlineLabel, records, generatedAt } = opts;
+    const { title, headlineLabel, records, generatedAt, lastCheckedAt } = opts;
     const stamp = fmtFullSydney(generatedAt);
+    const checkedStamp = fmtFullSydney(lastCheckedAt || generatedAt);
     const stats = computeStats(records);
     const filters = {
       type: new Set(),
@@ -418,21 +419,26 @@
 
     const asat = document.createElement("p");
     asat.className = "asat";
-    asat.innerHTML = `Data as at <strong>${esc(
-      stamp
-    )}</strong> (Australia/Sydney).`;
+    asat.innerHTML =
+      `Data as at <strong>${esc(stamp)}</strong> (Australia/Sydney). ` +
+      `&nbsp;Last checked for new ACCC items: <strong>${esc(
+        checkedStamp
+      )}</strong>. Checked automatically each morning &amp; afternoon.`;
     el.appendChild(asat);
   }
 
   // ---- staleness ---------------------------------------------------------
-  function checkStaleness(generatedAt) {
+  // Keyed off lastCheckedAt: this warns only if the updater itself seems to
+  // have stopped (no successful check in over ~26h), NOT merely because the
+  // ACCC hasn't published anything new. A quiet news day is not "stale".
+  function checkStaleness(lastCheckedAt) {
     const banner = document.getElementById("staleness");
-    const d = new Date(generatedAt);
+    const d = new Date(lastCheckedAt);
     if (isNaN(d)) return;
     const ageHours = (Date.now() - d.getTime()) / 3600000;
-    if (ageHours > 24) {
+    if (ageHours > 26) {
       banner.textContent =
-        "News data may be delayed — the ACCC sometimes publishes items late. This list refreshes automatically twice daily.";
+        "The automatic updater hasn't checked in over a day — the twice-daily refresh may have been delayed or paused. The data below is still the last good copy.";
       banner.hidden = false;
     }
   }
@@ -466,15 +472,17 @@
 
     const records = Array.isArray(data.records) ? data.records : [];
     const generatedAt = data.generatedAt || new Date().toISOString();
+    const lastCheckedAt = data.lastCheckedAt || generatedAt;
 
     renderSection(document.getElementById("section-news"), {
       title: "Media Releases & Updates",
       headlineLabel: "Media Releases & Updates",
       records,
       generatedAt,
+      lastCheckedAt,
     });
 
-    checkStaleness(generatedAt);
+    checkStaleness(lastCheckedAt);
   }
 
   document.addEventListener("DOMContentLoaded", boot);

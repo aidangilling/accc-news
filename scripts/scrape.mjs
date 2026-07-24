@@ -471,7 +471,10 @@ async function main() {
     }
   }
 
-  // 6. Only write when the data actually changed (ignore generatedAt churn).
+  // 6. Write on every run so the site shows a fresh "last checked" heartbeat,
+  //    but keep `generatedAt` pinned to the last time the DATA actually changed
+  //    (that drives the "Data as at" line). This way the page visibly proves it
+  //    ran today, even on quiet news days when nothing new was published.
   const records = listing.map((r) => ({
     type: r.type,
     permalink: r.permalink,
@@ -487,14 +490,24 @@ async function main() {
     notes: r.notes || "",
   }));
 
+  const now = new Date().toISOString();
   const signature = (recs) => JSON.stringify(recs.map((x) => ({ ...x })));
-  if (previous?.records && signature(previous.records) === signature(records)) {
-    console.log("No change vs last good data.json — nothing to write.");
-    return;
-  }
+  const recordsChanged =
+    !previous?.records || signature(previous.records) !== signature(records);
+  // generatedAt only moves when the records change; otherwise carry the old one.
+  const generatedAt = recordsChanged
+    ? now
+    : previous.generatedAt || now;
+
+  console.log(
+    recordsChanged
+      ? "Records changed — bumping generatedAt."
+      : "No record change — keeping generatedAt, updating lastCheckedAt only."
+  );
 
   const out = {
-    generatedAt: new Date().toISOString(),
+    generatedAt,
+    lastCheckedAt: now,
     sourceUrl: NEWS_CENTRE_URL,
     startYear: START_YEAR,
     recordCount: records.length,
