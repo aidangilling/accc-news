@@ -1,10 +1,110 @@
 {
-  "generatedAt": "2026-07-23T04:35:09.489Z",
-  "lastCheckedAt": "2026-07-24T00:54:54.604Z",
+  "generatedAt": "2026-07-30T00:21:47.507Z",
+  "lastCheckedAt": "2026-07-30T00:21:47.507Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 770,
+  "recordCount": 776,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/australia-post-stamp-price-increase-not-opposed-by-accc",
+      "title": "Australia Post stamp price increase not opposed by ACCC",
+      "category": "Postal Services",
+      "categories": [
+        "Postal Services"
+      ],
+      "summary": "The ACCC has not objected to Australia Post’s proposed stamp price increase of 8.8 per cent after finding Australia Post would likely not cover the costs of delivering its reserved letter services, even with the higher stamp price.",
+      "dateISO": "2026-07-29",
+      "dateText": "29 July 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/misleading-and-high-pressure-unsolicited-sales-practices-widespread",
+      "title": "Misleading and high pressure unsolicited sales practices widespread",
+      "category": "Advertising and Promotions, Buying and Selling Products and Services, Compliance and Enforcement",
+      "categories": [
+        "Advertising and Promotions",
+        "Buying and Selling Products and Services",
+        "Compliance and Enforcement"
+      ],
+      "summary": "An ACCC review of door-to-door selling, telemarketing and other unsolicited sales practices has found that businesses are frequently engaging in high pressure sales practices and breaching existing consumer safeguards and consumers are often misled during the sales process.",
+      "dateISO": "2026-07-28",
+      "dateText": "28 July 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/more-low-income-australians-to-benefit-from-low-or-no-fee-bank-accounts",
+      "title": "More low-income Australians to benefit from low or no-fee bank accounts",
+      "category": "Competition and Exemptions, Banking and Finance",
+      "categories": [
+        "Competition and Exemptions",
+        "Banking and Finance"
+      ],
+      "summary": "The ACCC has issued a final determination to authorise Australian banks which are members of the Australian Banking Association to continue working together under the Banking Code of Practice to help more low-income Australians access low-fee and no-fee bank accounts, and to assist farmers during droughts and natural disasters.",
+      "dateISO": "2026-07-27",
+      "dateText": "27 July 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-authorise-financial-and-cyber-crime-information-sharing-arrangements-in-superannuation-industry",
+      "title": "ACCC proposes to authorise financial and cyber crime information sharing arrangements in superannuation industry",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "On 24 July 2026, the ACCC released a draft determination proposing to grant authorisation to the Association of Superannuation Funds Australia Ltd and other specified participants.",
+      "dateISO": "2026-07-24",
+      "dateText": "24 July 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-grant-authorisation-for-singapore-airlines-and-all-nippon-airways",
+      "title": "ACCC proposes to grant authorisation for Singapore Airlines and All Nippon Airways",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has issued a draft determination proposing to grant authorisation for Singapore Airlines and All Nippon Airways to coordinate some aspects of their operations between Australia and Japan, and some other countries, under a Joint Venture Agreement.",
+      "dateISO": "2026-07-24",
+      "dateText": "24 July 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/court-dismisses-accc%E2%80%99s-case-against-magnamail",
+      "title": "Court dismisses ACCC’s case against Magnamail",
+      "category": "Buying and Selling Products and Services, Compliance and Enforcement",
+      "categories": [
+        "Buying and Selling Products and Services",
+        "Compliance and Enforcement"
+      ],
+      "summary": "The Federal Court has dismissed the ACCC’s proceedings against Magnamail Pty Ltd after finding that it did not make false or misleading representations to consumers in its mail order catalogue promotions.",
+      "dateISO": "2026-07-24",
+      "dateText": "24 July 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-issues-draft-determination-to-google-and-epic-games",
