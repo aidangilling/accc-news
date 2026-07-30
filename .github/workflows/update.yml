@@ -14,7 +14,7 @@ on:
     - cron: "0 23 * * *" # ~09:00 Sydney morning (10:00 during AEDT)
     - cron: "0 4 * * *" #  ~14:00 Sydney afternoon (15:00 during AEDT)
     - cron: "0 8 * * *" #  ~18:00 Sydney evening (19:00 during AEDT)
-    - cron: "48 0 * * *" # TEMP PROOF-OF-SCHEDULE TEST — fires ~10:48 Sydney today; remove after it runs
+    - cron: "55 1 * * *" # TEMP PROOF-OF-SCHEDULE TEST — fires ~11:55 Sydney today; remove after it runs
 
 # Allow the workflow to commit the refreshed data.json back to the repo.
 permissions:
