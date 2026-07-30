@@ -5,6 +5,7 @@ name: Update news data
 
 on:
   workflow_dispatch: {} # the "Run workflow" button — force a refresh anytime
+  schedule:
     # GitHub cron is in UTC and cannot express a timezone. Sydney is UTC+10
     # (AEST) / UTC+11 (AEDT), so these shift by an hour across daylight saving.
     # NOTE: GitHub's free scheduler often runs 10–90 min late and can very
@@ -12,6 +13,7 @@ on:
     # and use the Actions → Run workflow button for an instant refresh.
     - cron: "0 23 * * *" # ~09:00 Sydney morning (10:00 during AEDT)
     - cron: "0 4 * * *" #  ~14:00 Sydney afternoon (15:00 during AEDT)
+    - cron: "0 8 * * *" #  ~18:00 Sydney evening (19:00 during AEDT)
 
 # Allow the workflow to commit the refreshed data.json back to the repo.
 permissions:

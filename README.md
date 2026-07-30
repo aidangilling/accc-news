@@ -7,7 +7,7 @@ and **updates** (speeches are excluded) — in one sortable, filterable table.
 - **No server, no database, no cost.** A scheduled GitHub Action scrapes the
   news centre, and commits `data.json`. GitHub Pages serves the static site,
   which just reads that JSON.
-- Updates itself **twice daily**, plus a manual **Run workflow** button.
+- Updates itself **three times daily**, plus a manual **Run workflow** button.
 
 ## How it works
 
