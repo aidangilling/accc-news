@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-07-30T00:21:47.507Z",
-  "lastCheckedAt": "2026-07-30T00:21:47.507Z",
+  "generatedAt": "2026-07-30T04:48:16.761Z",
+  "lastCheckedAt": "2026-07-30T04:48:16.761Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 776,
+  "recordCount": 777,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-further-interim-authorisation-for-steps-to-establish-joint-venture-for-commercial-cash-distribution",
+      "title": "ACCC grants further interim authorisation for steps to establish joint venture for commercial cash distribution",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "On 29 July 2026, the ACCC granted further interim authorisation to Australia and New Zealand Banking Group Ltd, Commonwealth Bank of Australia, National Australia Bank Ltd and National Australia Investment Capital Pty Ltd and Westpac Banking Corporation to take further steps towards a proposed joint venture to supply commercial cash in Australia.",
+      "dateISO": "2026-07-30",
+      "dateText": "30 July 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/australia-post-stamp-price-increase-not-opposed-by-accc",
