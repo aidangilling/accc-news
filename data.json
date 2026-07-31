@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-07-30T04:48:16.761Z",
-  "lastCheckedAt": "2026-07-30T10:16:29.168Z",
+  "generatedAt": "2026-07-31T00:11:15.518Z",
+  "lastCheckedAt": "2026-07-31T00:11:15.518Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 777,
+  "recordCount": 778,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/accc-approves-heidelberg%E2%80%99s-acquisition-of-maas%E2%80%99s-construction-materials-business-subject-to-conditions-0",
+      "title": "ACCC approves Heidelberg’s acquisition of Maas’s construction materials business subject to conditions",
+      "category": "Mergers",
+      "categories": [
+        "Mergers"
+      ],
+      "summary": "The ACCC has approved Heidelberg Materials Australia Holdings Pty Ltd’s (Heidelberg) acquisition of Maas Group Holdings’ (ASX:MGH) construction materials business, subject to conditions that Heidelberg divest three concrete plants and a quarry across Queensland and New South Wales.",
+      "dateISO": "2026-07-31",
+      "dateText": "31 July 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-further-interim-authorisation-for-steps-to-establish-joint-venture-for-commercial-cash-distribution",
