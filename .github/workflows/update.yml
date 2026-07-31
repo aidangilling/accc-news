@@ -52,7 +52,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to data.json — nothing to commit."
           else
-            git commit -m "chore(data): refresh news data [skip ci]"
+            git commit -m "chore(data): refresh news data"
             git push
             echo "Committed and pushed refreshed data.json."
           fi
