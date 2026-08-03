@@ -1,10 +1,44 @@
 {
-  "generatedAt": "2026-07-31T00:11:15.518Z",
-  "lastCheckedAt": "2026-08-03T00:05:03.935Z",
+  "generatedAt": "2026-08-03T05:32:12.373Z",
+  "lastCheckedAt": "2026-08-03T05:32:12.373Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 778,
+  "recordCount": 780,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/energyaustralia-admits-breaching-electricity-retail-code-over-free-power-offer-delay",
+      "title": "EnergyAustralia admits breaching Electricity Retail Code over free power offer delay",
+      "category": "Compliance and Enforcement, Industry Codes, Energy",
+      "categories": [
+        "Compliance and Enforcement",
+        "Industry Codes",
+        "Energy"
+      ],
+      "summary": "EnergyAustralia Pty Ltd has admitted it breached the Electricity Retail Code by failing to make a Solar Sharer Offer available to consumers from 1 July 2026.",
+      "dateISO": "2026-08-03",
+      "dateText": "3 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/venue-smart-pays-penalties-over-alleged-contraventions-of-the-franchising-code",
+      "title": "Venue Smart pays penalties over alleged contraventions of the franchising code",
+      "category": "Compliance and Enforcement",
+      "categories": [
+        "Compliance and Enforcement"
+      ],
+      "summary": "Franchise operator Venue Smart Pty Ltd, trading as Venue Smart, has paid $59,400 in penalties after the ACCC issued it with 3 infringement notices for separate alleged contraventions of the Franchising Code of Conduct 2024.",
+      "dateISO": "2026-08-03",
+      "dateText": "3 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/accc-approves-heidelberg%E2%80%99s-acquisition-of-maas%E2%80%99s-construction-materials-business-subject-to-conditions-0",
