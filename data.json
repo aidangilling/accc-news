@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-08-03T05:32:12.373Z",
-  "lastCheckedAt": "2026-08-04T10:30:13.691Z",
+  "generatedAt": "2026-08-05T00:11:43.222Z",
+  "lastCheckedAt": "2026-08-05T00:11:43.222Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 780,
+  "recordCount": 781,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/accc-launches-mobile-services-inquiry",
+      "title": "ACCC launches mobile services inquiry",
+      "category": "Telecommunications and Internet",
+      "categories": [
+        "Telecommunications and Internet"
+      ],
+      "summary": "The ACCC is commencing an inquiry to examine regional mobile coverage across Australia and whether regulating wholesale access to some mobile services could improve consumer outcomes.",
+      "dateISO": "2026-08-05",
+      "dateText": "5 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/energyaustralia-admits-breaching-electricity-retail-code-over-free-power-offer-delay",
