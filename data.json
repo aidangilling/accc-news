@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-08-05T00:11:43.222Z",
-  "lastCheckedAt": "2026-08-05T00:11:43.222Z",
+  "generatedAt": "2026-08-05T04:55:54.956Z",
+  "lastCheckedAt": "2026-08-05T04:55:54.956Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 781,
+  "recordCount": 782,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-decides-to-re-authorise-job-futures-ltd-trading-as-coact-to-collectively-tender-for-employment-services-contracts",
+      "title": "ACCC decides to re-authorise Job Futures Ltd (trading as CoAct) to collectively tender for employment services contracts",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has issued a final determination granting authorisation to enable Job Futures (trading as CoAct) to collectively tender for employment services contracts.",
+      "dateISO": "2026-08-05",
+      "dateText": "5 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/accc-launches-mobile-services-inquiry",
