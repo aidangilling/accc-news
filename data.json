@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-05T04:55:54.956Z",
-  "lastCheckedAt": "2026-08-05T10:29:14.895Z",
+  "generatedAt": "2026-08-06T00:06:01.446Z",
+  "lastCheckedAt": "2026-08-06T00:06:01.446Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 782,
+  "recordCount": 783,
   "records": [
     {
       "type": "Update",
@@ -30,6 +30,23 @@
         "Telecommunications and Internet"
       ],
       "summary": "The ACCC is commencing an inquiry to examine regional mobile coverage across Australia and whether regulating wholesale access to some mobile services could improve consumer outcomes.",
+      "dateISO": "2026-08-05",
+      "dateText": "5 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-not-to-authorise-insurance-industry-coordination-on-standardised-terms",
+      "title": "ACCC proposes not to authorise insurance industry coordination on standardised terms",
+      "category": "Competition and Exemptions, Insurance",
+      "categories": [
+        "Competition and Exemptions",
+        "Insurance"
+      ],
+      "summary": "The ACCC issued a draft determination proposing not to authorise the Insurance Council of Australia and its home insurer members to voluntarily adopt and give effect to standard definitions of ‘taking reasonable steps to maintain’ and ‘wear and tear’, and related education campaigns.",
       "dateISO": "2026-08-05",
       "dateText": "5 August 2026",
       "year": 2026,
