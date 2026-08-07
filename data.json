@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-07T01:43:57.642Z",
-  "lastCheckedAt": "2026-08-07T04:19:31.150Z",
+  "generatedAt": "2026-08-07T05:40:41.881Z",
+  "lastCheckedAt": "2026-08-07T05:40:41.881Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 785,
+  "recordCount": 786,
   "records": [
     {
       "type": "Update",
@@ -15,6 +15,22 @@
         "Food and Groceries"
       ],
       "summary": "The ACCC has initiated inquiries into the claims raised in the recent Four Corners program, in line with its usual practices regarding allegations about potentially material, misleading consumer conduct.",
+      "dateISO": "2026-08-07",
+      "dateText": "7 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/accc-opposes-keg-pooling-supplier-microstar%E2%80%99s-proposed-acquisition-of-konvoy%E2%80%99s-assets",
+      "title": "ACCC opposes keg pooling supplier MicroStar’s proposed acquisition of Konvoy’s assets",
+      "category": "Mergers",
+      "categories": [
+        "Mergers"
+      ],
+      "summary": "The ACCC has decided that MicroStar Logistics LLC (MicroStar) must not acquire the assets of Konvoy Holdings Pty Ltd (Receivers and Managers Appointed) (Subject to Deed of Company Arrangement) (Konvoy).",
       "dateISO": "2026-08-07",
       "dateText": "7 August 2026",
       "year": 2026,
