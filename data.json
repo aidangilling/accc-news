@@ -1,10 +1,27 @@
 {
-  "generatedAt": "2026-08-06T04:55:49.853Z",
-  "lastCheckedAt": "2026-08-06T10:32:54.252Z",
+  "generatedAt": "2026-08-07T01:43:57.642Z",
+  "lastCheckedAt": "2026-08-07T01:43:57.642Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 784,
+  "recordCount": 785,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-looking-into-four-corners-food-claims",
+      "title": "ACCC looking into Four Corners' food claims",
+      "category": "Compliance and Enforcement, Food and Groceries",
+      "categories": [
+        "Compliance and Enforcement",
+        "Food and Groceries"
+      ],
+      "summary": "The ACCC has initiated inquiries into the claims raised in the recent Four Corners program, in line with its usual practices regarding allegations about potentially material, misleading consumer conduct.",
+      "dateISO": "2026-08-07",
+      "dateText": "7 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-authorise-supertab-pooling-arrangements-between-tabcorp-vic-and-rwwa",
