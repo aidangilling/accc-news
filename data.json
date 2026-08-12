@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-08-07T05:40:41.881Z",
-  "lastCheckedAt": "2026-08-11T23:51:25.872Z",
+  "generatedAt": "2026-08-12T03:54:57.520Z",
+  "lastCheckedAt": "2026-08-12T03:54:57.520Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 786,
+  "recordCount": 787,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/accc-approves-black-rhino%E2%80%99s-acquisition-of-club-hotel-motel-roma-subject-to-conditions-0",
+      "title": "ACCC approves Black Rhino’s acquisition of Club Hotel Motel Roma subject to conditions",
+      "category": "Mergers",
+      "categories": [
+        "Mergers"
+      ],
+      "summary": "The ACCC has approved Black Rhino Group Pty Ltd’s (Black Rhino) acquisition of a hotel and bottle shops from Speedy Cocktails Pty Ltd and Barry John Waldron (Speedy Cocktails), subject to conditions that Black Rhino divests at least one bottle shop in Roma, Queensland to an ACCC-approved purchaser before completion.",
+      "dateISO": "2026-08-12",
+      "dateText": "12 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-looking-into-four-corners-food-claims",
