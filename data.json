@@ -1,10 +1,42 @@
 {
-  "generatedAt": "2026-08-12T03:54:57.520Z",
-  "lastCheckedAt": "2026-08-13T23:51:23.480Z",
+  "generatedAt": "2026-08-14T03:55:55.232Z",
+  "lastCheckedAt": "2026-08-14T03:55:55.232Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 787,
+  "recordCount": 789,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/debt-collector-marshall-freeman-pays-penalties-for-alleged-undue-harassment-and-misleading-consumers",
+      "title": "Debt collector Marshall Freeman pays penalties for alleged undue harassment and misleading consumers",
+      "category": "Compliance and Enforcement",
+      "categories": [
+        "Compliance and Enforcement"
+      ],
+      "summary": "Debt collection company Marshall Freeman Collections Pty Ltd has paid $59,400 in penalties after the ACCC issued it with three infringement notices in relation to its debt collection activities, and has provided a court enforceable undertaking to the ACCC.",
+      "dateISO": "2026-08-14",
+      "dateText": "14 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/views-sought-on-airservices-australias-proposed-price-increases",
+      "title": "Views sought on Airservices Australia's proposed price increases",
+      "category": "Travel and Airports",
+      "categories": [
+        "Travel and Airports"
+      ],
+      "summary": "The ACCC is seeking feedback from the aviation industry and other interested parties on Airservices Australia's draft proposal to increase the prices it charges airlines for its enroute navigation, terminal navigation, and aviation rescue and firefighting services.",
+      "dateISO": "2026-08-14",
+      "dateText": "14 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/accc-approves-black-rhino%E2%80%99s-acquisition-of-club-hotel-motel-roma-subject-to-conditions-0",
