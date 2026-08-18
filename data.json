@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-08-14T03:55:55.232Z",
-  "lastCheckedAt": "2026-08-18T04:38:31.301Z",
+  "generatedAt": "2026-08-18T08:28:46.152Z",
+  "lastCheckedAt": "2026-08-18T08:28:46.152Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 789,
+  "recordCount": 790,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/vets-central%E2%80%99s-acquisition-of-hills-veterinary-centre-requires-phase-2-review",
+      "title": "Vets Central’s acquisition of Hills Veterinary Centre requires Phase 2 review",
+      "category": "Mergers",
+      "categories": [
+        "Mergers"
+      ],
+      "summary": "Vets Central’s proposed acquisition of 100 per cent of the business assets of Hills Veterinary Centre could substantially lessen competition and requires an in-depth Phase 2 assessment, the ACCC has decided.",
+      "dateISO": "2026-08-18",
+      "dateText": "18 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/debt-collector-marshall-freeman-pays-penalties-for-alleged-undue-harassment-and-misleading-consumers",
