@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-19T08:30:03.350Z",
-  "lastCheckedAt": "2026-08-19T08:30:03.350Z",
+  "generatedAt": "2026-08-19T23:29:48.286Z",
+  "lastCheckedAt": "2026-08-19T23:29:48.286Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 789,
+  "recordCount": 793,
   "records": [
     {
       "type": "Update",
@@ -4163,6 +4163,22 @@
     },
     {
       "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/regulatory-reform-in-digital-platform-markets-is-needed-to-improve-competition-and-consumer-outcomes",
+      "title": "Regulatory reform in digital platform markets is needed to improve competition and consumer outcomes",
+      "category": "Digital Platforms and Services",
+      "categories": [
+        "Digital Platforms and Services"
+      ],
+      "summary": "Without sufficient laws in place, Australian consumers and businesses continue to encounter a significant number of harmful practices across a range of digital platform services, the ACCC’s tenth and final report of the ACCC’s Digital Platform Services Inquiry has found.",
+      "dateISO": "2025-06-23",
+      "dateText": "23 June 2025",
+      "year": 2025,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/national-australia-bank-pays-751200-in-penalties-for-alleged-breaches-of-consumer-data-right-rules",
       "title": "National Australia Bank pays $751,200 in penalties for alleged breaches of Consumer Data Right Rules",
       "category": "Consumer Data Right, Compliance and Enforcement",
@@ -4936,6 +4952,23 @@
       "summary": "The ACCC has commenced legal proceedings in the Federal Court against Fewstone Pty Ltd, trading as City Beach, for allegedly selling products containing button batteries which did not comply with mandatory product safety and information standards, in breach of the Australian Consumer Law.",
       "dateISO": "2025-04-03",
       "dateText": "3 April 2025",
+      "year": 2025,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/accc-appeal-against-cfmeu-and-hutchinson-boycott-judgment-dismissed",
+      "title": "ACCC appeal against CFMEU and Hutchinson boycott judgment dismissed",
+      "category": "Compliance and Enforcement, Competition and Exemptions",
+      "categories": [
+        "Compliance and Enforcement",
+        "Competition and Exemptions"
+      ],
+      "summary": "The majority of the High Court has today dismissed an appeal by the ACCC against a decision of the Full Federal Court in proceedings against the Construction, Forestry and Maritime Employees Union (CFMEU) and construction company J Hutchinson Pty Ltd (Hutchinson).",
+      "dateISO": "2025-04-02",
+      "dateText": "2 April 2025",
       "year": 2025,
       "overridden": false,
       "overriddenFields": [],
@@ -6080,6 +6113,22 @@
       "summary": "The ACCC has issued a draft determination proposing to grant authorisation with conditions to allow the Australian Banking Association Ltd, major banks, major retailers and supermarkets, Australia Post and other industry participants to collaborate to ensure the future continuity of cash-in-transit services.",
       "dateISO": "2024-12-11",
       "dateText": "11 December 2024",
+      "year": 2024,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/integral-diagnostics-proposed-acquisition-of-capitol-health-not-opposed-subject-to-divestiture",
+      "title": "Integral Diagnostics' proposed acquisition of Capitol Health not opposed, subject to divestiture",
+      "category": "Mergers",
+      "categories": [
+        "Mergers"
+      ],
+      "summary": "The ACCC will not oppose Integral Diagnostics’ (ASX:IDX) proposed acquisition of Capitol Health (ASX:CAJ) after accepting a court-enforceable undertaking.",
+      "dateISO": "2024-12-10",
+      "dateText": "10 December 2024",
       "year": 2024,
       "overridden": false,
       "overriddenFields": [],
@@ -11750,6 +11799,22 @@
       "summary": "The Australian Competition Tribunal has affirmed the ACCC’s decision not to grant authorisation for the proposed regional spectrum authorisation arrangements between Telstra Corporation Limited (ASX:TLS and ASX:TL1) and TPG Telecom Limited (ASX:TPG).",
       "dateISO": "2023-06-21",
       "dateText": "21 June 2023",
+      "year": 2023,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/diesel-prices-down-by-10-per-cent-in-the-march-quarter-as-petrol-prices-remained-steady",
+      "title": "Diesel prices down by 10 per cent in the March quarter as petrol prices remained steady",
+      "category": "Petrol and Fuel",
+      "categories": [
+        "Petrol and Fuel"
+      ],
+      "summary": "Retail diesel prices dropped significantly in the March quarter 2023 while petrol prices remained broadly stable, which resulted in the gap between diesel and petrol prices narrowing, the ACCC’s latest petrol monitoring report has found.",
+      "dateISO": "2023-06-20",
+      "dateText": "20 June 2023",
       "year": 2023,
       "overridden": false,
       "overriddenFields": [],
