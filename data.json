@@ -1,10 +1,43 @@
 {
-  "generatedAt": "2026-08-18T08:28:46.152Z",
-  "lastCheckedAt": "2026-08-18T23:29:22.327Z",
+  "generatedAt": "2026-08-19T04:37:03.106Z",
+  "lastCheckedAt": "2026-08-19T04:37:03.106Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 790,
+  "recordCount": 792,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-interim-authorisation-for-7-eleven-to-continue-participating-in-velocity-loyalty-program",
+      "title": "ACCC grants interim authorisation for 7-Eleven to continue participating in Velocity loyalty program",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has issued a decision granting interim authorisation to 7-Eleven Stores, its franchisees, and Velocity Frequent Flyer, to allow 7-Eleven to continue to participate as a retail earn partner of Velocity’s loyalty program.",
+      "dateISO": "2026-08-19",
+      "dateText": "19 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/federal-court-upholds-14m-penalty-in-accc-case-against-city-beach",
+      "title": "Federal Court upholds $14m penalty in ACCC case against City Beach",
+      "category": "Buying and Selling Products and Services, Compliance and Enforcement",
+      "categories": [
+        "Buying and Selling Products and Services",
+        "Compliance and Enforcement"
+      ],
+      "summary": "The Federal Court has today dismissed an appeal by retailer Fewstone Pty Ltd, trading as City Beach, against a $14 million penalty for selling non-compliant button battery products, in proceedings brought by the ACCC.",
+      "dateISO": "2026-08-19",
+      "dateText": "19 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/vets-central%E2%80%99s-acquisition-of-hills-veterinary-centre-requires-phase-2-review",
