@@ -1,10 +1,27 @@
 {
-  "generatedAt": "2026-08-19T23:29:48.286Z",
-  "lastCheckedAt": "2026-08-19T23:29:48.286Z",
+  "generatedAt": "2026-08-20T02:49:07.019Z",
+  "lastCheckedAt": "2026-08-20T02:49:07.019Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 793,
+  "recordCount": 794,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-authorise-joint-marketing-arrangements-for-vali-field",
+      "title": "ACCC proposes to authorise joint marketing arrangements for Vali Field",
+      "category": "Competition and Exemptions, Energy",
+      "categories": [
+        "Competition and Exemptions",
+        "Energy"
+      ],
+      "summary": "On 6 August 2026, the ACCC released a draft determination proposing to grant authorisation to Vintage Energy Ltd, Metgasco Ltd and Bridgeport (Cooper Basin) Pty Ltd to jointly market and give effect to provisions of gas supply agreements relating to the supply of gas from Vali Field.",
+      "dateISO": "2026-08-20",
+      "dateText": "20 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-authorisation-for-singapore-airlines-and-all-nippon-airways",
