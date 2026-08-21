@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-08-21T02:54:54.731Z",
-  "lastCheckedAt": "2026-08-21T04:38:25.264Z",
+  "generatedAt": "2026-08-21T08:31:24.789Z",
+  "lastCheckedAt": "2026-08-21T08:31:24.789Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 797,
+  "recordCount": 798,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-not-to-authorise-procurement-of-waste-management-services-in-south-east-queensland",
+      "title": "ACCC proposes not to authorise procurement of waste management services in South East Queensland",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "On 21 August 2026, the ACCC issued a draft determination proposing not to authorise the Council of Mayors (South East Queensland) Pty Ltd and eleven of its member councils in South East Queensland (SEQ) to aggregate residual waste and develop up to 3 regional waste facilities within SEQ to process waste.",
+      "dateISO": "2026-08-21",
+      "dateText": "21 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-authorise-regional-atm-trial-for-multi-bank-fee-free-withdrawals-and-deposits",
