@@ -1,10 +1,43 @@
 {
-  "generatedAt": "2026-08-20T23:33:15.144Z",
-  "lastCheckedAt": "2026-08-20T23:33:15.144Z",
+  "generatedAt": "2026-08-21T02:54:54.731Z",
+  "lastCheckedAt": "2026-08-21T02:54:54.731Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 795,
+  "recordCount": 797,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-authorise-regional-atm-trial-for-multi-bank-fee-free-withdrawals-and-deposits",
+      "title": "ACCC proposes to authorise regional ATM trial for multi-bank fee-free withdrawals and deposits",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "On 20 August 2026, the ACCC released a draft determination proposing to authorise the Australian Banking Association and other financial institutions to conduct a trial of multi-bank regional ATMs.",
+      "dateISO": "2026-08-21",
+      "dateText": "21 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/fire-extinguisher-suppliers-amend-lithium-ion-battery-fire-extinguisher-claims",
+      "title": "Fire extinguisher suppliers amend lithium-ion battery fire extinguisher claims",
+      "category": "Buying and Selling Products and Services, Compliance and Enforcement",
+      "categories": [
+        "Buying and Selling Products and Services",
+        "Compliance and Enforcement"
+      ],
+      "summary": "Suppliers of lithium-ion battery fire extinguishers have amended their marketing claims after the ACCC raised concerns about potentially false or misleading representations in relation to safety standard compliance and appropriate use.",
+      "dateISO": "2026-08-21",
+      "dateText": "21 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/subaru-in-court-for-allegedly-failing-to-give-independent-repairers-equal-access-to-car-repair-information",
