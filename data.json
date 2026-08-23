@@ -1,10 +1,27 @@
 {
-  "generatedAt": "2026-08-21T08:31:24.789Z",
-  "lastCheckedAt": "2026-08-23T08:21:40.542Z",
+  "generatedAt": "2026-08-23T23:28:56.415Z",
+  "lastCheckedAt": "2026-08-23T23:28:56.415Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 798,
+  "recordCount": 799,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/real-stories-show-no-one-is-just-a-number-this-scams-awareness-week",
+      "title": "Real stories show no one is just a number this Scams Awareness Week",
+      "category": "Stay Protected, Scams",
+      "categories": [
+        "Stay Protected",
+        "Scams"
+      ],
+      "summary": "Four courageous Australians share their stories during Scams Awareness Week 2026, and join with the National Anti-Scam Centre in encouraging people to remember three simple steps: Stop.",
+      "dateISO": "2026-08-24",
+      "dateText": "24 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-not-to-authorise-procurement-of-waste-management-services-in-south-east-queensland",
