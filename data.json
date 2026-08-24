@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-08-23T23:28:56.415Z",
-  "lastCheckedAt": "2026-08-23T23:28:56.415Z",
+  "generatedAt": "2026-08-24T02:58:28.003Z",
+  "lastCheckedAt": "2026-08-24T02:58:28.003Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 799,
+  "recordCount": 798,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-grant-authorisation-for-the-australian-property-institute",
+      "title": "ACCC proposes to grant authorisation for the Australian Property Institute",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has issued a draft determination proposing to authorise the Australian Property Institute and its current and future members (together, the API) to make and give effect to the API's professional standards, membership obligations and disciplinary arrangements.",
+      "dateISO": "2026-08-24",
+      "dateText": "24 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/real-stories-show-no-one-is-just-a-number-this-scams-awareness-week",
@@ -361,38 +377,6 @@
       "summary": "The ACCC has approved Heidelberg Materials Australia Holdings Pty Ltd’s (Heidelberg) acquisition of Maas Group Holdings’ (ASX:MGH) construction materials business, subject to conditions that Heidelberg divest three concrete plants and a quarry across Queensland and New South Wales.",
       "dateISO": "2026-07-31",
       "dateText": "31 July 2026",
-      "year": 2026,
-      "overridden": false,
-      "overriddenFields": [],
-      "notes": ""
-    },
-    {
-      "type": "Update",
-      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-further-interim-authorisation-for-steps-to-establish-joint-venture-for-commercial-cash-distribution",
-      "title": "ACCC grants further interim authorisation for steps to establish joint venture for commercial cash distribution",
-      "category": "Competition and Exemptions",
-      "categories": [
-        "Competition and Exemptions"
-      ],
-      "summary": "On 29 July 2026, the ACCC granted further interim authorisation to Australia and New Zealand Banking Group Ltd, Commonwealth Bank of Australia, National Australia Bank Ltd and National Australia Investment Capital Pty Ltd and Westpac Banking Corporation to take further steps towards a proposed joint venture to supply commercial cash in Australia.",
-      "dateISO": "2026-07-30",
-      "dateText": "30 July 2026",
-      "year": 2026,
-      "overridden": false,
-      "overriddenFields": [],
-      "notes": ""
-    },
-    {
-      "type": "Media Release",
-      "permalink": "https://www.accc.gov.au/media-release/australia-post-stamp-price-increase-not-opposed-by-accc",
-      "title": "Australia Post stamp price increase not opposed by ACCC",
-      "category": "Postal Services",
-      "categories": [
-        "Postal Services"
-      ],
-      "summary": "The ACCC has not objected to Australia Post’s proposed stamp price increase of 8.8 per cent after finding Australia Post would likely not cover the costs of delivering its reserved letter services, even with the higher stamp price.",
-      "dateISO": "2026-07-29",
-      "dateText": "29 July 2026",
       "year": 2026,
       "overridden": false,
       "overriddenFields": [],
