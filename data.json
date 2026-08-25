@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-25T02:52:15.053Z",
-  "lastCheckedAt": "2026-08-25T02:52:15.053Z",
+  "generatedAt": "2026-08-25T04:38:53.028Z",
+  "lastCheckedAt": "2026-08-25T04:38:53.028Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 802,
+  "recordCount": 803,
   "records": [
     {
       "type": "Update",
@@ -15,6 +15,23 @@
         "Energy"
       ],
       "summary": "On 21 August 2026, the ACCC released a draft determination proposing to re-authorise the applicants to coordinate maintenance schedules and activities at their LNG facilities on Curtis Island.",
+      "dateISO": "2026-08-25",
+      "dateText": "25 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/court-finds-eharmony-engaged-in-misleading-conduct-in-relation-to-automatic-renewal-and-pricing-of-its-subscriptions",
+      "title": "Court finds eHarmony engaged in misleading conduct in relation to automatic renewal and pricing of its subscriptions",
+      "category": "Buying and Selling Products and Services, Compliance and Enforcement",
+      "categories": [
+        "Buying and Selling Products and Services",
+        "Compliance and Enforcement"
+      ],
+      "summary": "The Federal Court has found that dating site eHarmony made misleading representations to consumers about the pricing, renewal and duration of its online dating memberships in statements online and in its app, in proceedings brought by the ACCC.",
       "dateISO": "2026-08-25",
       "dateText": "25 August 2026",
       "year": 2026,
