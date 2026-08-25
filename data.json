@@ -1,10 +1,27 @@
 {
-  "generatedAt": "2026-08-24T04:44:24.865Z",
-  "lastCheckedAt": "2026-08-24T23:29:05.821Z",
+  "generatedAt": "2026-08-25T02:52:15.053Z",
+  "lastCheckedAt": "2026-08-25T02:52:15.053Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 801,
+  "recordCount": 802,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-re-authorise-coordination-of-maintenance-for-lng-export-facilities-at-curtis-island",
+      "title": "ACCC proposes to re-authorise coordination of maintenance for LNG export facilities at Curtis Island",
+      "category": "Competition and Exemptions, Energy",
+      "categories": [
+        "Competition and Exemptions",
+        "Energy"
+      ],
+      "summary": "On 21 August 2026, the ACCC released a draft determination proposing to re-authorise the applicants to coordinate maintenance schedules and activities at their LNG facilities on Curtis Island.",
+      "dateISO": "2026-08-25",
+      "dateText": "25 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/accc-appeals-dismissal-of-case-against-mail-order-company-magnamail",
