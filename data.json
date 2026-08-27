@@ -1,10 +1,27 @@
 {
-  "generatedAt": "2026-08-25T04:38:53.028Z",
-  "lastCheckedAt": "2026-08-26T08:34:51.964Z",
+  "generatedAt": "2026-08-27T04:28:57.350Z",
+  "lastCheckedAt": "2026-08-27T04:28:57.350Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 803,
+  "recordCount": 804,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-final-replacement-module-determination-for-second-regulatory-cycle-under-nbn-co-sau",
+      "title": "ACCC publishes final replacement module determination for second regulatory cycle under NBN Co’s special access undertaking",
+      "category": "Regulated Infrastructure, Telecommunications and Internet",
+      "categories": [
+        "Regulated Infrastructure",
+        "Telecommunications and Internet"
+      ],
+      "summary": "The ACCC has published its final replacement module determination for the 1 July 2026 to 30 June 2029 regulatory cycle (second regulatory cycle), under NBN Co’s special access undertaking (SAU).",
+      "dateISO": "2026-08-27",
+      "dateText": "27 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-re-authorise-coordination-of-maintenance-for-lng-export-facilities-at-curtis-island",
