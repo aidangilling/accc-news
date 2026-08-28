@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-08-27T04:28:57.350Z",
-  "lastCheckedAt": "2026-08-27T18:41:17.657Z",
+  "generatedAt": "2026-08-28T06:51:45.532Z",
+  "lastCheckedAt": "2026-08-28T06:51:45.532Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 804,
+  "recordCount": 805,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/exemption-granted-for-new-energy-tech-consumer-code",
+      "title": "Exemption granted for New Energy Tech Consumer Code",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has issued a final determination granting conditional exemption for the New Energy Tech Consumer Code, which sets minimum standards for how suppliers of new energy technology products and services deal with consumers.",
+      "dateISO": "2026-08-28",
+      "dateText": "28 August 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-final-replacement-module-determination-for-second-regulatory-cycle-under-nbn-co-sau",
