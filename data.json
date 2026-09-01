@@ -1,10 +1,27 @@
 {
-  "generatedAt": "2026-08-28T06:51:45.532Z",
-  "lastCheckedAt": "2026-08-31T15:43:56.977Z",
+  "generatedAt": "2026-09-01T01:46:26.542Z",
+  "lastCheckedAt": "2026-09-01T01:46:26.542Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 805,
+  "recordCount": 806,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/stronger-product-safety-rules-needed-including-for-online-marketplaces",
+      "title": "Stronger product safety rules needed, including for online marketplaces",
+      "category": "Buying and Selling Products and Services, Digital Platforms and Services",
+      "categories": [
+        "Buying and Selling Products and Services",
+        "Digital Platforms and Services"
+      ],
+      "summary": "Reforms are needed to close gaps in Australia’s product safety framework to prevent unsafe goods from reaching and harming Australian consumers, with online marketplaces a particular concern, the ACCC says.",
+      "dateISO": "2026-09-01",
+      "dateText": "1 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/exemption-granted-for-new-energy-tech-consumer-code",
