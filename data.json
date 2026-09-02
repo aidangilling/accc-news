@@ -1,10 +1,42 @@
 {
-  "generatedAt": "2026-09-02T00:58:32.314Z",
-  "lastCheckedAt": "2026-09-02T00:58:32.314Z",
+  "generatedAt": "2026-09-02T06:35:56.958Z",
+  "lastCheckedAt": "2026-09-02T06:35:56.958Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 808,
+  "recordCount": 810,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-authorisation-for-supertab-pooling-arrangements-between-tabcorp-vic-and-rwwa",
+      "title": "ACCC grants authorisation for SuperTAB pooling arrangements between Tabcorp VIC and RWWA",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has granted authorisation to Tabcorp VIC to allow RWWA to participate in the SuperTAB totalisator pool.",
+      "dateISO": "2026-09-02",
+      "dateText": "2 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-grant-authorisation-for-7-eleven-to-participate-in-velocity-loyalty-program",
+      "title": "ACCC proposes to grant authorisation for 7-Eleven to participate in Velocity loyalty program",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has issued a draft determination proposing to grant authorisation to 7-Eleven Stores, its franchisees and Velocity Frequent Flyer to allow 7-Eleven to participate as an earn partner in Velocity’s loyalty program.",
+      "dateISO": "2026-09-02",
+      "dateText": "2 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/kimberly-clark%E2%80%99s-acquisition-of-kenvue-approved-subject-to-sale-of-carefree-and-stayfree-brands",
