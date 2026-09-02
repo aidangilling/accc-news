@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-09-01T06:57:42.132Z",
-  "lastCheckedAt": "2026-09-01T12:56:29.404Z",
+  "generatedAt": "2026-09-02T00:58:32.314Z",
+  "lastCheckedAt": "2026-09-02T00:58:32.314Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 807,
+  "recordCount": 808,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/kimberly-clark%E2%80%99s-acquisition-of-kenvue-approved-subject-to-sale-of-carefree-and-stayfree-brands",
+      "title": "Kimberly-Clark’s acquisition of Kenvue approved subject to sale of Carefree and Stayfree brands",
+      "category": "Mergers",
+      "categories": [
+        "Mergers"
+      ],
+      "summary": "The ACCC has approved Kimberly-Clark Corporation’s proposal to acquire Kenvue Inc., subject to conditions that Kimberly-Clark divest Kenvue’s Carefree and Stayfree period care brands in Australia to a purchaser approved by the ACCC.",
+      "dateISO": "2026-09-02",
+      "dateText": "2 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/stronger-product-safety-rules-needed-including-for-online-marketplaces",
