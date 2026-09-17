@@ -1,10 +1,240 @@
 {
-  "generatedAt": "2026-09-02T06:35:56.958Z",
-  "lastCheckedAt": "2026-09-02T06:35:56.958Z",
+  "generatedAt": "2026-09-17T23:36:59.284Z",
+  "lastCheckedAt": "2026-09-17T23:36:59.284Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 810,
+  "recordCount": 824,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-conditional-authorisation-for-financial-cybercrime-information-sharing-superannuation-industry",
+      "title": "ACCC grants conditional authorisation for financial and cybercrime information sharing arrangements in superannuation industry",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "On 17 September 2026, the ACCC issues a final determination granting authorisation to the Association of Superannuation Funds Australia Ltd and other specified participants.",
+      "dateISO": "2026-09-17",
+      "dateText": "17 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-authorisation-for-regional-atm-trial-for-multi-bank-fee-free-withdrawals-and-deposits",
+      "title": "ACCC grants authorisation for regional ATM trial for multi-bank fee-free withdrawals and deposits",
+      "category": "Competition and Exemptions, Banking and Finance",
+      "categories": [
+        "Competition and Exemptions",
+        "Banking and Finance"
+      ],
+      "summary": "On 16 September 2026, the ACCC released a determination granting authorisation to enable the Australian Banking Association and other financial institutions to conduct a trial of multi-bank regional ATMs.",
+      "dateISO": "2026-09-16",
+      "dateText": "16 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/mazda-kia-and-byd-improve-access-to-service-and-repair-information-after-accc-investigations",
+      "title": "Mazda, Kia, and BYD improve access to service and repair information after ACCC investigations",
+      "category": "Compliance and Enforcement",
+      "categories": [
+        "Compliance and Enforcement"
+      ],
+      "summary": "Mazda, Kia, and BYD have improved access and reduced the costs for independent repairers to access their service and repair information, following separate ACCC investigations.",
+      "dateISO": "2026-09-16",
+      "dateText": "16 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/the-qantas-group-and-virgin-australia-report-substantial-earnings-despite-increased-fuel-costs",
+      "title": "The Qantas Group and Virgin Australia report substantial earnings despite increased fuel costs",
+      "category": "Regulated Infrastructure, Travel and Airports",
+      "categories": [
+        "Regulated Infrastructure",
+        "Travel and Airports"
+      ],
+      "summary": "Australia’s two largest airline groups have reported strong financial results despite facing significantly higher jet fuel prices, the ACCC’s latest Domestic Airline Competition in Australia report has found.",
+      "dateISO": "2026-09-15",
+      "dateText": "15 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-and-afp-strengthen-collaboration-to-combat-scams",
+      "title": "Joint statement: ACCC and AFP strengthen collaboration to combat scams",
+      "category": "Scams",
+      "categories": [
+        "Scams"
+      ],
+      "summary": "The Australian Competition and Consumer Commission (ACCC) and the Australian Federal Police (AFP) have signed a Memorandum of Understanding (MOU) to support enhanced information sharing relating to scam activity.",
+      "dateISO": "2026-09-14",
+      "dateText": "14 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/realestatecomau-removes-restrictions-in-contracts-with-real-estate-agents-after-accc-investigation",
+      "title": "Realestate.com.au removes restrictions in contracts with real estate agents after ACCC investigation",
+      "category": "Advertising and Promotions, Compliance and Enforcement",
+      "categories": [
+        "Advertising and Promotions",
+        "Compliance and Enforcement"
+      ],
+      "summary": "Real estate agencies and their clients should have more choice and flexibility in their listing options for the sale and rental of Australian properties after the ACCC accepted a court-enforceable undertaking from REA Group Ltd (ASX:REA).",
+      "dateISO": "2026-09-14",
+      "dateText": "14 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/accc-continues-exemption-to-apra-arrangements-for-music-rights",
+      "title": "ACCC continues exemption to APRA arrangements for music rights",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has issued a final determination continuing the exemption from certain competition laws for arrangements used by the Australasian Performing Right Association (APRA) to acquire and license performing rights in musical works, subject to conditions.",
+      "dateISO": "2026-09-11",
+      "dateText": "11 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-releases-addendum-to-issues-paper-on-airservices-australias-draft-price-notification",
+      "title": "ACCC releases addendum to issues paper on Airservices Australia's draft price notification",
+      "category": "Travel and Airports",
+      "categories": [
+        "Travel and Airports"
+      ],
+      "summary": "The ACCC has released an addendum to an issues paper published on 14 August 2026 that sought views on Airservices Australia's draft price notification.",
+      "dateISO": "2026-09-11",
+      "dateText": "11 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/online-retailer-neptune-blanket-pays-penalties-for-allegedly-misleading-statements-about-consumer-guarantees",
+      "title": "Online retailer Neptune Blanket pays penalties for allegedly misleading statements about consumer guarantees",
+      "category": "Buying and Selling Products and Services, Compliance and Enforcement, Digital Platforms and Services",
+      "categories": [
+        "Buying and Selling Products and Services",
+        "Compliance and Enforcement",
+        "Digital Platforms and Services"
+      ],
+      "summary": "Online retailer Dysck Pty Ltd, trading as Neptune Blanket, has paid $59,400 in penalties after the ACCC issued it with three infringement notices for making allegedly misleading statements to two consumers about their rights, and not including mandatory wording in its warranty against defects.",
+      "dateISO": "2026-09-09",
+      "dateText": "9 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/designation-of-linfox-armaguard-under-the-cash-distribution-framework-act",
+      "title": "Designation of Linfox Armaguard under the Cash Distribution Framework Act",
+      "category": "Banking and Finance",
+      "categories": [
+        "Banking and Finance"
+      ],
+      "summary": "The Reserve Bank of Australia on 3 September 2026 designated Linfox Armaguard Pty Ltd under the Cash Distribution Framework Act 2026.",
+      "dateISO": "2026-09-08",
+      "dateText": "8 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/accc-approves-peter-warrens-acquisition-of-wakeling-automotives-dealership-sites-subject-to-conditions",
+      "title": "ACCC approves Peter Warren's acquisition of Wakeling Automotive's dealership sites subject to conditions",
+      "category": "Mergers, Cars and Vehicles",
+      "categories": [
+        "Mergers",
+        "Cars and Vehicles"
+      ],
+      "summary": "The ACCC has approved Peter Warren Automotive Holdings Limited’s (ASX: PWR) (Peter Warren) acquisition of Wakeling Automotive Group’s new car dealerships, subject to conditions that Peter Warren divest eight dealership sites.",
+      "dateISO": "2026-09-04",
+      "dateText": "4 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-authorise-qantas-american-airlines-aviation-alliance",
+      "title": "ACCC proposes to authorise Qantas-American Airlines aviation alliance",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has issued a draft determination proposing to grant authorisation to Qantas Airways Ltd and American Airlines Inc in respect of their aviation alliance on trans-Pacific routes.",
+      "dateISO": "2026-09-04",
+      "dateText": "4 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-authorisation-for-joint-marketing-arrangements-for-vali-field",
+      "title": "ACCC grants authorisation for joint marketing arrangements for Vali Field",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "On3 September 2026, the ACCC released a draft determination proposing to grant authorisation to Vintage Energy Ltd, Metgasco Ltd and Bridgeport (Cooper Basin) Pty Ltd to jointly market and give effect to provisions of gas supply agreements relating to the supply of gas from Vali Field.",
+      "dateISO": "2026-09-03",
+      "dateText": "3 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-issues-determination-to-google-and-epic-games",
+      "title": "ACCC issues determination to Google LLC and Epic Games, Inc.",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "On 2 September 2026, the ACCC issued a determination granting authorisation for Google LLC and Epic Games, Inc to give effect to certain terms of a settlement the parties have reached to resolve ongoing litigation between them in Australia.",
+      "dateISO": "2026-09-03",
+      "dateText": "3 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-authorisation-for-supertab-pooling-arrangements-between-tabcorp-vic-and-rwwa",

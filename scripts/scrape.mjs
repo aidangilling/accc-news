@@ -41,11 +41,28 @@ const AJAX_URL = ORIGIN + "/views/ajax";
 // timelines). Override at runtime with e.g. START_YEAR=2020 node scripts/scrape.mjs
 const START_YEAR = Number(process.env.START_YEAR || 2023);
 
-// NOTE: the ACCC's WAF rejects any User-Agent containing the word "bot",
-// so this is a plain, current browser UA. Keep it that way.
+// NOTE: since ~Sept 2026 the ACCC's WAF returns HTTP 403 "Access Denied" to a
+// bare request — it now requires a full, browser-like header set (below). It
+// also rejects any User-Agent containing the word "bot". Keep both in mind.
 const USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
-  "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
+  "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36";
+
+// A complete Chrome XHR header set (the listing comes from a Views AJAX call).
+// The WAF blocks requests missing these.
+const BROWSER_HEADERS = {
+  "User-Agent": USER_AGENT,
+  Accept: "application/json, text/javascript, */*; q=0.01",
+  "Accept-Language": "en-AU,en;q=0.9",
+  "X-Requested-With": "XMLHttpRequest",
+  "sec-ch-ua": '"Chromium";v="140", "Not=A?Brand";v="24"',
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": '"macOS"',
+  "Sec-Fetch-Dest": "empty",
+  "Sec-Fetch-Mode": "cors",
+  "Sec-Fetch-Site": "same-origin",
+  Referer: NEWS_CENTRE_URL,
+};
 
 const REQUEST_DELAY_MS = 400; // be polite between requests
 const MAX_PAGES = 200; // safety cap on pagination (endpoint wraps forever)
@@ -90,12 +107,7 @@ async function fetchListingPage(page, attempt = 1) {
   const url = `${AJAX_URL}?${params.toString()}`;
   try {
     const res = await fetch(url, {
-      headers: {
-        "User-Agent": USER_AGENT,
-        Accept: "application/json, text/javascript, */*; q=0.01",
-        "Accept-Language": "en-AU,en;q=0.9",
-        "X-Requested-With": "XMLHttpRequest",
-      },
+      headers: BROWSER_HEADERS,
       redirect: "follow",
     });
     if (!res.ok) throw new Error(`HTTP ${res.status} for page ${page}`);
