@@ -1,10 +1,29 @@
 {
-  "generatedAt": "2026-09-17T23:36:59.284Z",
-  "lastCheckedAt": "2026-09-20T12:47:31.140Z",
+  "generatedAt": "2026-09-21T00:59:04.934Z",
+  "lastCheckedAt": "2026-09-21T00:59:04.934Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 824,
+  "recordCount": 825,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/digidirect-pays-penalties-and-admits-to-making-misleading-strikethrough-discount-claims",
+      "title": "digiDirect pays penalties and admits to making misleading strikethrough discount claims",
+      "category": "Advertising and Promotions, Buying and Selling Products and Services, Compliance and Enforcement, Pricing",
+      "categories": [
+        "Advertising and Promotions",
+        "Buying and Selling Products and Services",
+        "Compliance and Enforcement",
+        "Pricing"
+      ],
+      "summary": "Digital Imaging Express Pty Ltd, trading as digiDirect, has paid $99,000 in penalties after the ACCC issued it with five infringement notices for making allegedly misleading discount claims.",
+      "dateISO": "2026-09-21",
+      "dateText": "21 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-conditional-authorisation-for-financial-cybercrime-information-sharing-superannuation-industry",
