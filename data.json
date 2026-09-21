@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T00:59:04.934Z",
-  "lastCheckedAt": "2026-09-21T00:59:04.934Z",
+  "generatedAt": "2026-09-21T07:24:11.813Z",
+  "lastCheckedAt": "2026-09-21T07:24:11.813Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
   "recordCount": 825,
@@ -61,9 +61,11 @@
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/mazda-kia-and-byd-improve-access-to-service-and-repair-information-after-accc-investigations",
       "title": "Mazda, Kia, and BYD improve access to service and repair information after ACCC investigations",
-      "category": "Compliance and Enforcement",
+      "category": "Buying and Selling Products and Services, Compliance and Enforcement, Cars and Vehicles",
       "categories": [
-        "Compliance and Enforcement"
+        "Buying and Selling Products and Services",
+        "Compliance and Enforcement",
+        "Cars and Vehicles"
       ],
       "summary": "Mazda, Kia, and BYD have improved access and reduced the costs for independent repairers to access their service and repair information, following separate ACCC investigations.",
       "dateISO": "2026-09-16",
@@ -143,8 +145,9 @@
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-releases-addendum-to-issues-paper-on-airservices-australias-draft-price-notification",
       "title": "ACCC releases addendum to issues paper on Airservices Australia's draft price notification",
-      "category": "Travel and Airports",
+      "category": "Regulated Infrastructure, Travel and Airports",
       "categories": [
+        "Regulated Infrastructure",
         "Travel and Airports"
       ],
       "summary": "The ACCC has released an addendum to an issues paper published on 14 August 2026 that sought views on Airservices Australia's draft price notification.",
@@ -177,9 +180,10 @@
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/designation-of-linfox-armaguard-under-the-cash-distribution-framework-act",
       "title": "Designation of Linfox Armaguard under the Cash Distribution Framework Act",
-      "category": "Banking and Finance",
+      "category": "Banking and Finance, Regulated Infrastructure",
       "categories": [
-        "Banking and Finance"
+        "Banking and Finance",
+        "Regulated Infrastructure"
       ],
       "summary": "The Reserve Bank of Australia on 3 September 2026 designated Linfox Armaguard Pty Ltd under the Cash Distribution Framework Act 2026.",
       "dateISO": "2026-09-08",
@@ -210,9 +214,10 @@
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-authorise-qantas-american-airlines-aviation-alliance",
       "title": "ACCC proposes to authorise Qantas-American Airlines aviation alliance",
-      "category": "Competition and Exemptions",
+      "category": "Competition and Exemptions, Travel and Airports",
       "categories": [
-        "Competition and Exemptions"
+        "Competition and Exemptions",
+        "Travel and Airports"
       ],
       "summary": "The ACCC has issued a draft determination proposing to grant authorisation to Qantas Airways Ltd and American Airlines Inc in respect of their aviation alliance on trans-Pacific routes.",
       "dateISO": "2026-09-04",
@@ -226,9 +231,10 @@
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-authorisation-for-joint-marketing-arrangements-for-vali-field",
       "title": "ACCC grants authorisation for joint marketing arrangements for Vali Field",
-      "category": "Competition and Exemptions",
+      "category": "Competition and Exemptions, Energy",
       "categories": [
-        "Competition and Exemptions"
+        "Competition and Exemptions",
+        "Energy"
       ],
       "summary": "On3 September 2026, the ACCC released a draft determination proposing to grant authorisation to Vintage Energy Ltd, Metgasco Ltd and Bridgeport (Cooper Basin) Pty Ltd to jointly market and give effect to provisions of gas supply agreements relating to the supply of gas from Vali Field.",
       "dateISO": "2026-09-03",
@@ -242,9 +248,10 @@
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-issues-determination-to-google-and-epic-games",
       "title": "ACCC issues determination to Google LLC and Epic Games, Inc.",
-      "category": "Competition and Exemptions",
+      "category": "Competition and Exemptions, Digital Platforms and Services",
       "categories": [
-        "Competition and Exemptions"
+        "Competition and Exemptions",
+        "Digital Platforms and Services"
       ],
       "summary": "On 2 September 2026, the ACCC issued a determination granting authorisation for Google LLC and Epic Games, Inc to give effect to certain terms of a settlement the parties have reached to resolve ongoing litigation between them in Australia.",
       "dateISO": "2026-09-03",
@@ -274,8 +281,9 @@
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-grant-authorisation-for-7-eleven-to-participate-in-velocity-loyalty-program",
       "title": "ACCC proposes to grant authorisation for 7-Eleven to participate in Velocity loyalty program",
-      "category": "Competition and Exemptions",
+      "category": "Buying and Selling Products and Services, Competition and Exemptions",
       "categories": [
+        "Buying and Selling Products and Services",
         "Competition and Exemptions"
       ],
       "summary": "The ACCC has issued a draft determination proposing to grant authorisation to 7-Eleven Stores, its franchisees and Velocity Frequent Flyer to allow 7-Eleven to participate as an earn partner in Velocity’s loyalty program.",
@@ -290,8 +298,9 @@
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/kimberly-clark%E2%80%99s-acquisition-of-kenvue-approved-subject-to-sale-of-carefree-and-stayfree-brands",
       "title": "Kimberly-Clark’s acquisition of Kenvue approved subject to sale of Carefree and Stayfree brands",
-      "category": "Mergers",
+      "category": "Buying and Selling Products and Services, Mergers",
       "categories": [
+        "Buying and Selling Products and Services",
         "Mergers"
       ],
       "summary": "The ACCC has approved Kimberly-Clark Corporation’s proposal to acquire Kenvue Inc., subject to conditions that Kimberly-Clark divest Kenvue’s Carefree and Stayfree period care brands in Australia to a purchaser approved by the ACCC.",
@@ -337,9 +346,10 @@
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/exemption-granted-for-new-energy-tech-consumer-code",
       "title": "Exemption granted for New Energy Tech Consumer Code",
-      "category": "Competition and Exemptions",
+      "category": "Competition and Exemptions, Energy",
       "categories": [
-        "Competition and Exemptions"
+        "Competition and Exemptions",
+        "Energy"
       ],
       "summary": "The ACCC has issued a final determination granting conditional exemption for the New Energy Tech Consumer Code, which sets minimum standards for how suppliers of new energy technology products and services deal with consumers.",
       "dateISO": "2026-08-28",
@@ -470,9 +480,10 @@
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-to-authorise-regional-atm-trial-for-multi-bank-fee-free-withdrawals-and-deposits",
       "title": "ACCC proposes to authorise regional ATM trial for multi-bank fee-free withdrawals and deposits",
-      "category": "Competition and Exemptions",
+      "category": "Competition and Exemptions, Banking and Finance",
       "categories": [
-        "Competition and Exemptions"
+        "Competition and Exemptions",
+        "Banking and Finance"
       ],
       "summary": "On 20 August 2026, the ACCC released a draft determination proposing to authorise the Australian Banking Association and other financial institutions to conduct a trial of multi-bank regional ATMs.",
       "dateISO": "2026-08-21",
@@ -537,9 +548,10 @@
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-grants-authorisation-for-singapore-airlines-and-all-nippon-airways",
       "title": "ACCC grants authorisation for Singapore Airlines and All Nippon Airways",
-      "category": "Competition and Exemptions",
+      "category": "Competition and Exemptions, Travel and Airports",
       "categories": [
-        "Competition and Exemptions"
+        "Competition and Exemptions",
+        "Travel and Airports"
       ],
       "summary": "On 19 August 2026, the ACCC granted authorisation to Singapore Airlines and All Nippon Airways to coordinate some aspects of their operations between Australia and Japan, and some other countries, under a Joint Venture Agreement.",
       "dateISO": "2026-08-19",
@@ -618,8 +630,9 @@
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/views-sought-on-airservices-australias-proposed-price-increases",
       "title": "Views sought on Airservices Australia's proposed price increases",
-      "category": "Travel and Airports",
+      "category": "Regulated Infrastructure, Travel and Airports",
       "categories": [
+        "Regulated Infrastructure",
         "Travel and Airports"
       ],
       "summary": "The ACCC is seeking feedback from the aviation industry and other interested parties on Airservices Australia's draft proposal to increase the prices it charges airlines for its enroute navigation, terminal navigation, and aviation rescue and firefighting services.",
@@ -814,9 +827,11 @@
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/australia-post-stamp-price-increase-not-opposed-by-accc",
       "title": "Australia Post stamp price increase not opposed by ACCC",
-      "category": "Postal Services",
+      "category": "Buying and Selling Products and Services, Postal Services, Regulated Infrastructure",
       "categories": [
-        "Postal Services"
+        "Buying and Selling Products and Services",
+        "Postal Services",
+        "Regulated Infrastructure"
       ],
       "summary": "The ACCC has not objected to Australia Post’s proposed stamp price increase of 8.8 per cent after finding Australia Post would likely not cover the costs of delivering its reserved letter services, even with the higher stamp price.",
       "dateISO": "2026-07-29",
