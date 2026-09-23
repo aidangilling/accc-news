@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-09-21T07:24:11.813Z",
-  "lastCheckedAt": "2026-09-22T12:59:59.947Z",
+  "generatedAt": "2026-09-23T01:23:34.596Z",
+  "lastCheckedAt": "2026-09-23T01:23:34.596Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 825,
+  "recordCount": 826,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/accc-opposes-iags-proposed-acquisition-of-rac-insurance",
+      "title": "ACCC opposes IAG's proposed acquisition of RAC Insurance",
+      "category": "Mergers, Cars and Vehicles, Insurance",
+      "categories": [
+        "Mergers",
+        "Cars and Vehicles",
+        "Insurance"
+      ],
+      "summary": "The ACCC has decided that Insurance Australia Group Limited (ASX: IAG) (IAG) must not put into effect its proposed acquisition of RAC Insurance (RACI).",
+      "dateISO": "2026-09-23",
+      "dateText": "23 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/digidirect-pays-penalties-and-admits-to-making-misleading-strikethrough-discount-claims",
