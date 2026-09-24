@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-09-23T01:23:34.596Z",
-  "lastCheckedAt": "2026-09-23T13:11:13.401Z",
+  "generatedAt": "2026-09-24T01:17:41.824Z",
+  "lastCheckedAt": "2026-09-24T01:17:41.824Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 826,
+  "recordCount": 827,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/bayswood-timber-wholesalers-pays-penalty-for-bushfire-suitable-timber-claims",
+      "title": "Bayswood Timber Wholesalers pays penalty for bushfire-suitable timber claims",
+      "category": "Compliance and Enforcement",
+      "categories": [
+        "Compliance and Enforcement"
+      ],
+      "summary": "A Victorian timber wholesaler and importer, Bayswood Timber Wholesalers Pty Ltd, has paid a penalty of $19,800 for making allegedly false or misleading statements about the suitability of its timber to be used in certain building applications in defined bushfire-prone areas.",
+      "dateISO": "2026-09-24",
+      "dateText": "24 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/accc-opposes-iags-proposed-acquisition-of-rac-insurance",
