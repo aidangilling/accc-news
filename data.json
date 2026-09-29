@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-09-29T02:33:42.262Z",
-  "lastCheckedAt": "2026-09-29T02:33:42.262Z",
+  "generatedAt": "2026-09-29T07:39:37.232Z",
+  "lastCheckedAt": "2026-09-29T07:39:37.232Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 829,
+  "recordCount": 830,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-conditional-authorisation-for-catholic-hospitals-to-collectively-bargain-and-boycott",
+      "title": "ACCC proposes conditional authorisation for Catholic hospitals to collectively bargain and boycott",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "The ACCC has issued a draft determination proposing to grant conditional authorisation to Catholic hospitals for collective bargaining, boycott and information sharing.",
+      "dateISO": "2026-09-29",
+      "dateText": "29 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/accc-seeks-views-on-armaguard-interim-pricing-measures",
