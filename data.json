@@ -1,10 +1,45 @@
 {
-  "generatedAt": "2026-09-24T01:17:41.824Z",
-  "lastCheckedAt": "2026-09-28T16:19:15.712Z",
+  "generatedAt": "2026-09-29T02:33:42.262Z",
+  "lastCheckedAt": "2026-09-29T02:33:42.262Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 827,
+  "recordCount": 829,
   "records": [
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/accc-seeks-views-on-armaguard-interim-pricing-measures",
+      "title": "ACCC seeks views on Armaguard interim pricing measures",
+      "category": "Banking and Finance, Regulated Infrastructure",
+      "categories": [
+        "Banking and Finance",
+        "Regulated Infrastructure"
+      ],
+      "summary": "The ACCC is seeking the views of large and small retailers, banks, and other interested parties on a proposed undertaking from Linfox Armaguard Pty Ltd relating to cash distribution services.",
+      "dateISO": "2026-09-29",
+      "dateText": "29 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
+    {
+      "type": "Media Release",
+      "permalink": "https://www.accc.gov.au/media-release/james-lane-and-vuly-pay-penalties-for-allegedly-making-misleading-representations-during-last-year%E2%80%99s-black-friday-sales",
+      "title": "James Lane and Vuly pay penalties for allegedly making misleading representations during last year’s Black Friday sales",
+      "category": "Advertising and Promotions, Compliance and Enforcement, Pricing",
+      "categories": [
+        "Advertising and Promotions",
+        "Compliance and Enforcement",
+        "Pricing"
+      ],
+      "summary": "Furniture retailer, The Sleeping Giant Pty Ltd trading as James Lane, and children’s play equipment retailer, Systems Operations Pty Ltd trading as Vuly Play Group, have paid penalties after being issued with infringement notices for allegedly making misleading representations to consumers about the duration of their Black Friday sales.",
+      "dateISO": "2026-09-29",
+      "dateText": "29 September 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Media Release",
       "permalink": "https://www.accc.gov.au/media-release/bayswood-timber-wholesalers-pays-penalty-for-bushfire-suitable-timber-claims",
