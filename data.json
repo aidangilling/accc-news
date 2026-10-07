@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-09-29T07:39:37.232Z",
-  "lastCheckedAt": "2026-10-06T14:38:00.776Z",
+  "generatedAt": "2026-10-07T02:13:18.379Z",
+  "lastCheckedAt": "2026-10-07T02:13:18.379Z",
   "sourceUrl": "https://www.accc.gov.au/news-centre",
   "startYear": 2023,
-  "recordCount": 830,
+  "recordCount": 831,
   "records": [
+    {
+      "type": "Update",
+      "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-issues-determination-for-port-stephens-council-and-city-of-newcastle-joint-procurement-of-food-organics-and-garden-organics-collection-services",
+      "title": "ACCC issues determination for Port Stephens Council and City of Newcastle joint procurement of food organics and garden organics collection services",
+      "category": "Competition and Exemptions",
+      "categories": [
+        "Competition and Exemptions"
+      ],
+      "summary": "On 7 October 2026, the ACCC issued a determination granting authorisation for Port Stephens Council and the City of Newcastle, and the future successful tenderer, to undertake joint procurement for food organics and garden organics collection and education services until 7 April 2037.",
+      "dateISO": "2026-10-07",
+      "dateText": "7 October 2026",
+      "year": 2026,
+      "overridden": false,
+      "overriddenFields": [],
+      "notes": ""
+    },
     {
       "type": "Update",
       "permalink": "https://www.accc.gov.au/about-us/news/media-updates/accc-proposes-conditional-authorisation-for-catholic-hospitals-to-collectively-bargain-and-boycott",
